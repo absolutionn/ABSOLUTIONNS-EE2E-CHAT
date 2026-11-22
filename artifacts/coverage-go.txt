@@ -1,0 +1,7 @@
+e2ee-chat/internal/room/manager.go:35:	NewManager	100.0%
+e2ee-chat/internal/room/manager.go:39:	CreateRoom	87.5%
+e2ee-chat/internal/room/manager.go:56:	Join		100.0%
+e2ee-chat/internal/room/manager.go:84:	Leave		92.9%
+e2ee-chat/internal/room/manager.go:112:	Relay		94.4%
+e2ee-chat/internal/room/manager.go:145:	ActiveRooms	100.0%
+total:					(statements)	94.7%

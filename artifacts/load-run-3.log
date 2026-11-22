@@ -1,0 +1,112 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: tests/load.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 20 max VUs, 45s max duration (incl. graceful stop):
+              * default: 20 looping VUs for 15s (gracefulStop: 30s)
+
+
+running (01.0s), 20/20 VUs, 10388 complete and 0 interrupted iterations
+default   [   7% ] 20 VUs  01.0s/15s
+
+running (02.0s), 20/20 VUs, 20028 complete and 0 interrupted iterations
+default   [  13% ] 20 VUs  02.0s/15s
+
+running (03.0s), 20/20 VUs, 29830 complete and 0 interrupted iterations
+default   [  20% ] 20 VUs  03.0s/15s
+
+running (04.0s), 20/20 VUs, 40238 complete and 0 interrupted iterations
+default   [  27% ] 20 VUs  04.0s/15s
+
+running (05.0s), 20/20 VUs, 50541 complete and 0 interrupted iterations
+default   [  33% ] 20 VUs  05.0s/15s
+
+running (06.0s), 20/20 VUs, 60120 complete and 0 interrupted iterations
+default   [  40% ] 20 VUs  06.0s/15s
+
+running (07.0s), 20/20 VUs, 70272 complete and 0 interrupted iterations
+default   [  47% ] 20 VUs  07.0s/15s
+
+running (08.0s), 20/20 VUs, 79822 complete and 0 interrupted iterations
+default   [  53% ] 20 VUs  08.0s/15s
+
+running (09.0s), 20/20 VUs, 89791 complete and 0 interrupted iterations
+default   [  60% ] 20 VUs  09.0s/15s
+
+running (10.0s), 20/20 VUs, 99757 complete and 0 interrupted iterations
+default   [  67% ] 20 VUs  10.0s/15s
+
+running (11.0s), 20/20 VUs, 110236 complete and 0 interrupted iterations
+default   [  73% ] 20 VUs  11.0s/15s
+
+running (12.0s), 20/20 VUs, 120303 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  12.0s/15s
+
+running (13.0s), 20/20 VUs, 130326 complete and 0 interrupted iterations
+default   [  87% ] 20 VUs  13.0s/15s
+
+running (14.0s), 20/20 VUs, 140706 complete and 0 interrupted iterations
+default   [  93% ] 20 VUs  14.0s/15s
+
+running (15.0s), 20/20 VUs, 150644 complete and 0 interrupted iterations
+default   [ 100% ] 20 VUs  15.0s/15s
+
+
+  █ THRESHOLDS 
+
+    checks
+    ✓ 'rate>0.99' rate=100.00%
+
+    http_req_duration
+    ✓ 'p(95)<50' p(95)=1.76ms
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 602812  40180.585163/s
+    checks_succeeded...: 100.00% 602812 out of 602812
+    checks_failed......: 0.00%   0 out of 602812
+
+    ✓ create room status 201
+    ✓ roomId returned
+    ✓ ws upgrade 101
+    ✓ received peers=1 status
+
+    HTTP
+    http_req_duration..............: avg=718.78µs min=36.18µs  med=504.16µs max=33.99ms p(90)=1.37ms p(95)=1.76ms
+      { expected_response:true }...: avg=718.78µs min=36.18µs  med=504.16µs max=33.99ms p(90)=1.37ms p(95)=1.76ms
+    http_req_failed................: 0.00%  0 out of 150703
+    http_reqs......................: 150703 10045.146291/s
+
+    EXECUTION
+    iteration_duration.............: avg=1.98ms   min=273.1µs  med=1.64ms   max=47.12ms p(90)=3.01ms p(95)=3.77ms
+    iterations.....................: 150703 10045.146291/s
+    vus............................: 20     min=20          max=20
+    vus_max........................: 20     min=20          max=20
+
+    NETWORK
+    data_received..................: 61 MB  4.0 MB/s
+    data_sent......................: 50 MB  3.3 MB/s
+
+    WEBSOCKET
+    ws_connecting..................: avg=969.1µs  min=92.57µs  med=726.7µs  max=38.22ms p(90)=1.7ms  p(95)=2.16ms
+    ws_msgs_received...............: 150703 10045.146291/s
+    ws_session_duration............: avg=1.15ms   min=138.03µs med=931.39µs max=39.24ms p(90)=1.9ms  p(95)=2.4ms 
+    ws_sessions....................: 150703 10045.146291/s
+
+
+
+
+running (15.0s), 00/20 VUs, 150703 complete and 0 interrupted iterations
+default ✓ [ 100% ] 20 VUs  15s

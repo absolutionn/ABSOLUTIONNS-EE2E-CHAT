@@ -1,0 +1,12 @@
+=== RUN   TestJoinBoundaries
+=== RUN   TestJoinBoundaries/missing_room
+=== RUN   TestJoinBoundaries/first_participant
+=== RUN   TestJoinBoundaries/second_participant_(boundary)
+=== RUN   TestJoinBoundaries/third_participant_blocked
+--- PASS: TestJoinBoundaries (0.00s)
+    --- PASS: TestJoinBoundaries/missing_room (0.00s)
+    --- PASS: TestJoinBoundaries/first_participant (0.00s)
+    --- PASS: TestJoinBoundaries/second_participant_(boundary) (0.00s)
+    --- PASS: TestJoinBoundaries/third_participant_blocked (0.00s)
+PASS
+ok  	e2ee-chat/internal/room	0.002s

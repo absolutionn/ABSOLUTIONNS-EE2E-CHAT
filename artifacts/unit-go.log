@@ -1,0 +1,19 @@
+=== RUN   TestCreateRoomUniqueness
+--- PASS: TestCreateRoomUniqueness (0.00s)
+=== RUN   TestJoinBoundaries
+=== RUN   TestJoinBoundaries/missing_room
+=== RUN   TestJoinBoundaries/first_participant
+=== RUN   TestJoinBoundaries/second_participant_(boundary)
+=== RUN   TestJoinBoundaries/third_participant_blocked
+--- PASS: TestJoinBoundaries (0.00s)
+    --- PASS: TestJoinBoundaries/missing_room (0.00s)
+    --- PASS: TestJoinBoundaries/first_participant (0.00s)
+    --- PASS: TestJoinBoundaries/second_participant_(boundary) (0.00s)
+    --- PASS: TestJoinBoundaries/third_participant_blocked (0.00s)
+=== RUN   TestRelayAndReplayProtection
+--- PASS: TestRelayAndReplayProtection (0.00s)
+=== RUN   TestLeaveCleansUpRAM
+--- PASS: TestLeaveCleansUpRAM (0.00s)
+PASS
+coverage: 94.7% of statements
+ok  	e2ee-chat/internal/room	(cached)	coverage: 94.7% of statements

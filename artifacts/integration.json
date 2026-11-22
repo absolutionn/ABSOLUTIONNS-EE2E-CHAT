@@ -1,0 +1,12 @@
+{"Time":"2026-11-22T19:36:25.470890773+02:00","Action":"start","Package":"e2ee-chat/internal/server"}
+{"Time":"2026-11-22T19:36:25.470988525+02:00","Action":"run","Package":"e2ee-chat/internal/server","Test":"TestIntegrationRelayAndRejections"}
+{"Time":"2026-11-22T19:36:25.470991227+02:00","Action":"output","Package":"e2ee-chat/internal/server","Test":"TestIntegrationRelayAndRejections","Output":"=== RUN   TestIntegrationRelayAndRejections\n","OutputType":"frame"}
+{"Time":"2026-11-22T19:36:25.471004036+02:00","Action":"output","Package":"e2ee-chat/internal/server","Test":"TestIntegrationRelayAndRejections","Output":"--- PASS: TestIntegrationRelayAndRejections (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-22T19:36:25.471006111+02:00","Action":"pass","Package":"e2ee-chat/internal/server","Test":"TestIntegrationRelayAndRejections","Elapsed":0.01}
+{"Time":"2026-11-22T19:36:25.47100979+02:00","Action":"run","Package":"e2ee-chat/internal/server","Test":"TestConcurrentJoinRaceSafety"}
+{"Time":"2026-11-22T19:36:25.471010775+02:00","Action":"output","Package":"e2ee-chat/internal/server","Test":"TestConcurrentJoinRaceSafety","Output":"=== RUN   TestConcurrentJoinRaceSafety\n","OutputType":"frame"}
+{"Time":"2026-11-22T19:36:25.471012479+02:00","Action":"output","Package":"e2ee-chat/internal/server","Test":"TestConcurrentJoinRaceSafety","Output":"--- PASS: TestConcurrentJoinRaceSafety (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-22T19:36:25.471013434+02:00","Action":"pass","Package":"e2ee-chat/internal/server","Test":"TestConcurrentJoinRaceSafety","Elapsed":0.01}
+{"Time":"2026-11-22T19:36:25.471014455+02:00","Action":"output","Package":"e2ee-chat/internal/server","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-22T19:36:25.471015685+02:00","Action":"output","Package":"e2ee-chat/internal/server","Output":"ok  \te2ee-chat/internal/server\t(cached)\n"}
+{"Time":"2026-11-22T19:36:25.471017801+02:00","Action":"pass","Package":"e2ee-chat/internal/server","Elapsed":0}

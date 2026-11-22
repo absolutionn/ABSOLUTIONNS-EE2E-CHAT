@@ -1,0 +1,14 @@
+=== RUN   TestJoinBoundaries
+=== RUN   TestJoinBoundaries/missing_room
+=== RUN   TestJoinBoundaries/first_participant
+=== RUN   TestJoinBoundaries/second_participant_(boundary)
+=== RUN   TestJoinBoundaries/third_participant_blocked
+    room_test.go:57: got err <nil>, want room is full
+--- FAIL: TestJoinBoundaries (0.00s)
+    --- PASS: TestJoinBoundaries/missing_room (0.00s)
+    --- PASS: TestJoinBoundaries/first_participant (0.00s)
+    --- PASS: TestJoinBoundaries/second_participant_(boundary) (0.00s)
+    --- FAIL: TestJoinBoundaries/third_participant_blocked (0.00s)
+FAIL
+FAIL	e2ee-chat/internal/room	0.003s
+FAIL
