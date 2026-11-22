@@ -1,7 +1,7 @@
-[32m✔ FR-2 & NFR-1: X25519 key pair is non-extractable and derives symmetric AES key [90m(9.512024ms)[39m[39m
-[32m✔ FR-4 boundary: empty string and Unicode round-trip [90m(5.035074ms)[39m[39m
-[32m✔ STRIDE Tampering: modified ciphertext or wrong key fails AES-GCM verification [90m(2.383242ms)[39m[39m
-[32m✔ STRIDE Spoofing: fingerprint is deterministic and unique per public key [90m(0.9583ms)[39m[39m
+[32m✔ FR-2 & NFR-1: X25519 key pair is non-extractable and derives symmetric AES key [90m(11.934572ms)[39m[39m
+[32m✔ FR-4 boundary: empty string and Unicode round-trip [90m(1.942538ms)[39m[39m
+[32m✔ STRIDE Tampering: modified ciphertext or wrong key fails AES-GCM verification [90m(2.195853ms)[39m[39m
+[32m✔ STRIDE Spoofing: fingerprint is deterministic and unique per public key [90m(1.183657ms)[39m[39m
 [34mℹ tests 4[39m
 [34mℹ suites 0[39m
 [34mℹ pass 4[39m
@@ -9,7 +9,7 @@
 [34mℹ cancelled 0[39m
 [34mℹ skipped 0[39m
 [34mℹ todo 0[39m
-[34mℹ duration_ms 72.107179[39m
+[34mℹ duration_ms 82.909508[39m
 [34mℹ start of coverage report
 ℹ -------------------------------------------------------------
 ℹ file         | [31mline %[34m | [31mbranch %[34m | [31mfuncs %[34m | uncovered lines
