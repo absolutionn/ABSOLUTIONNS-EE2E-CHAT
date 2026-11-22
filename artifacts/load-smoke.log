@@ -14,19 +14,19 @@
               * default: 2 looping VUs for 5s (gracefulStop: 30s)
 
 
-running (01.0s), 2/2 VUs, 3873 complete and 0 interrupted iterations
+running (01.0s), 2/2 VUs, 4249 complete and 0 interrupted iterations
 default   [  20% ] 2 VUs  1.0s/5s
 
-running (02.0s), 2/2 VUs, 7505 complete and 0 interrupted iterations
+running (02.0s), 2/2 VUs, 8681 complete and 0 interrupted iterations
 default   [  40% ] 2 VUs  2.0s/5s
 
-running (03.0s), 2/2 VUs, 10827 complete and 0 interrupted iterations
+running (03.0s), 2/2 VUs, 12693 complete and 0 interrupted iterations
 default   [  60% ] 2 VUs  3.0s/5s
 
-running (04.0s), 2/2 VUs, 14786 complete and 0 interrupted iterations
+running (04.0s), 2/2 VUs, 16952 complete and 0 interrupted iterations
 default   [  80% ] 2 VUs  4.0s/5s
 
-running (05.0s), 2/2 VUs, 18260 complete and 0 interrupted iterations
+running (05.0s), 2/2 VUs, 20780 complete and 0 interrupted iterations
 default   [ 100% ] 2 VUs  5.0s/5s
 
 
@@ -36,7 +36,7 @@ default   [ 100% ] 2 VUs  5.0s/5s
     ✓ 'rate>0.99' rate=100.00%
 
     http_req_duration
-    ✓ 'p(95)<50' p(95)=189.36µs
+    ✓ 'p(95)<50' p(95)=157.77µs
 
     http_req_failed
     ✓ 'rate<0.01' rate=0.00%
@@ -44,9 +44,9 @@ default   [ 100% ] 2 VUs  5.0s/5s
 
   █ TOTAL RESULTS 
 
-    checks_total.......: 73068   14612.102677/s
-    checks_succeeded...: 100.00% 73068 out of 73068
-    checks_failed......: 0.00%   0 out of 73068
+    checks_total.......: 83136   16624.666521/s
+    checks_succeeded...: 100.00% 83136 out of 83136
+    checks_failed......: 0.00%   0 out of 83136
 
     ✓ create room status 201
     ✓ roomId returned
@@ -54,29 +54,29 @@ default   [ 100% ] 2 VUs  5.0s/5s
     ✓ received peers=1 status
 
     HTTP
-    http_req_duration..............: avg=111.9µs  min=35.13µs  med=90.81µs  max=7.59ms p(90)=136.34µs p(95)=189.36µs
-      { expected_response:true }...: avg=111.9µs  min=35.13µs  med=90.81µs  max=7.59ms p(90)=136.34µs p(95)=189.36µs
-    http_req_failed................: 0.00%  0 out of 18267
-    http_reqs......................: 18267  3653.025669/s
+    http_req_duration..............: avg=100.39µs min=31.15µs  med=84.88µs  max=6.49ms  p(90)=122.51µs p(95)=157.77µs
+      { expected_response:true }...: avg=100.39µs min=31.15µs  med=84.88µs  max=6.49ms  p(90)=122.51µs p(95)=157.77µs
+    http_req_failed................: 0.00%  0 out of 20784
+    http_reqs......................: 20784  4156.16663/s
 
     EXECUTION
-    iteration_duration.............: avg=540.14µs min=213.34µs med=472.65µs max=8.37ms p(90)=647.49µs p(95)=945.77µs
-    iterations.....................: 18267  3653.025669/s
+    iteration_duration.............: avg=474.74µs min=202.05µs med=440.5µs  max=11.19ms p(90)=546.15µs p(95)=759.95µs
+    iterations.....................: 20784  4156.16663/s
     vus............................: 2      min=2          max=2
     vus_max........................: 2      min=2          max=2
 
     NETWORK
-    data_received..................: 7.3 MB 1.5 MB/s
-    data_sent......................: 6.1 MB 1.2 MB/s
+    data_received..................: 8.4 MB 1.7 MB/s
+    data_sent......................: 6.9 MB 1.4 MB/s
 
     WEBSOCKET
-    ws_connecting..................: avg=210.12µs min=76.44µs  med=177.15µs max=6.19ms p(90)=249.54µs p(95)=365.56µs
-    ws_msgs_received...............: 18267  3653.025669/s
-    ws_session_duration............: avg=320.98µs min=123.7µs  med=277.5µs  max=7.23ms p(90)=367.45µs p(95)=565.39µs
-    ws_sessions....................: 18267  3653.025669/s
+    ws_connecting..................: avg=185.3µs  min=73.03µs  med=164.24µs max=9.46ms  p(90)=222.52µs p(95)=275.96µs
+    ws_msgs_received...............: 20784  4156.16663/s
+    ws_session_duration............: avg=281.61µs min=115.97µs med=258.14µs max=10.47ms p(90)=324.82µs p(95)=447.85µs
+    ws_sessions....................: 20784  4156.16663/s
 
 
 
 
-running (05.0s), 0/2 VUs, 18267 complete and 0 interrupted iterations
+running (05.0s), 0/2 VUs, 20784 complete and 0 interrupted iterations
 default ✓ [ 100% ] 2 VUs  5s
