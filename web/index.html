@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <title>E2EE Вебчат</title>
+</head>
+<body>
+  <div id="lobby">
+    <button id="create-btn" type="button">Створити кімнату</button>
+  </div>
+  <div id="chat" hidden>
+    <p>URL кімнати: <code id="room-url"></code></p>
+    <p>Статус: <span id="status">Підключення...</span></p>
+    <p>Відбиток ключа співрозмовника: <code id="fingerprint">—</code></p>
+    <p id="error-box" style="color:red" hidden></p>
+    <ul id="messages"></ul>
+    <form id="msg-form">
+      <input id="msg-input" type="text" placeholder="Повідомлення" disabled />
+      <button id="send-btn" type="submit" disabled>Надіслати</button>
+    </form>
+  </div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
