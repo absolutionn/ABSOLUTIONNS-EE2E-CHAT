@@ -1,4 +1,4 @@
-# E2EE Webchat (OPZIS Coursework — Theme 7, Variant 7)
+# E2EE Webchat
 
 ## Environment & Versions
 - OS / Shell: EndeavourOS Linux (`x86_64`), Bash
